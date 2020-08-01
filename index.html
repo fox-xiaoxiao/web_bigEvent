@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
     <title>后台页面</title>
     <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
     <!-- 导入字体图标 -->
     <link rel="stylesheet" href="/assets/fonts/iconfont.css">
     <link rel="stylesheet" href="/assets/css/index.css">
 </head>
+<body>
+
 
 <body class="layui-layout-body">
     <div class="layui-layout layui-layout-admin">
@@ -24,9 +27,9 @@
                         个人中心
                     </a>
                     <dl class="layui-nav-child">
-                        <dd><a href="">基本资料</a></dd>
-                        <dd><a href="">更换头像</a></dd>
-                        <dd><a href="">重置密码</a></dd>
+                        <dd><a href="/user/user_info.html" target="fm">基本资料</a></dd>
+                        <dd><a href="/user/user_avatar.html" target="fm">更换头像</a></dd>
+                        <dd><a href="/user/user_pwd.html" target="fm">重置密码</a></dd>
                     </dl>
                 </li>
                 <span class="iconfont .icon-tuichu"></span>
@@ -68,9 +71,9 @@
                     <li class="layui-nav-item">
                         <a href="javascript:;"><span class="iconfont icon-user"></span>个人中心</a>
                         <dl class="layui-nav-child">
-                            <dd><a href="javascript:;">基本资料</a></dd>
-                            <dd><a href="javascript:;">更换头像</a></dd>
-                            <dd><a href="javascript:;">重置密码</a></dd>
+                            <dd><a href="/user/user_info.html" target="fm"><i class="layui-icon layui-icon-app"></i>基本资料</a></dd>
+                            <dd><a href="/user/user_avatar.html" target="fm"><i class="layui-icon layui-icon-app"></i>更换头像</a></dd>
+                            <dd><a href="/user/user_pwd.html" target="fm"><i class="layui-icon layui-icon-app"></i>重置密码</a></dd>
                         </dl>
                     </li>
                 </ul>
@@ -81,6 +84,7 @@
             <!-- 内容主体区域 -->
             <!-- iframe 元素会创建包含另外一个文档的内联框架（即行内框架） -->
         <iframe name="fm" src="/home/dashboard.html" frameborder="0"></iframe>
+        <!-- <iframe name="fm1" src="/user/user_info.html" frameborder="0"></iframe> -->
         </div>
 
         <div class="layui-footer">
@@ -94,4 +98,4 @@
     <script src="/assets/js/index.js"></script>
 </body>
 
-</html>
+</html> 

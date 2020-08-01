@@ -5,7 +5,10 @@ var baseURL = 'http://ajax.frontend.itheima.net'
 // 过滤每一次ajax请求，配置请求所需要的参数
 $.ajaxPrefilter(function (options) {
     options.url = baseURL + options.url
+<<<<<<< HEAD
 
+=======
+>>>>>>> user
     // 判断请求路径是否包含/my/
     // 请求头配置对象 token
     if (options.url.indexOf(/my/) != -1) {
