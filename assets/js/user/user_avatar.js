@@ -31,4 +31,5 @@ $(function () {
             .attr('src', newImgURL)  // 重新设置图片路径
             .cropper(options)        // 重新初始化裁剪区域
     })
+   
 })

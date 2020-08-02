@@ -49,8 +49,4 @@ function renderUser(user) {
         $('.layui-nav-img').hide()
         $('.text-avatar').show().html(uname[0].toUpperCase())
     }
-<<<<<<< HEAD
-}
-=======
 } 
->>>>>>> user
